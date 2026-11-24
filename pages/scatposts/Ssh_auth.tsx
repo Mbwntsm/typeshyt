@@ -225,7 +225,7 @@ And there we go! Our repository should start cloning without asking us for our G
 That's the real test! We've successfully set up SSH authentication and used it to clone a GitHub repository.
 <ImagieCenter src={pic17} alt={"ubuntu auth keys"}/>
 <p className='text-lime-400'>ssh -T git@github.com/usernmae/repository.git</p>
-No doubt permission denied cuz i have forgot to actually use the ssh-private key of this git account
+No doubt, the permission was denied because I forgot to use the SSH private key associated with this Git account.
 <ImagieCenter src={pic18} alt={"ubuntu auth keys"}/>
 <p className='text-lime-400'>ssh -T git@github-username:username/repository.git</p>
 now this will work 
@@ -277,7 +277,7 @@ We've successfully tested both sides of the SSH workflow: cloning repositories a
 <ImagieCenter src={pic21} alt={"ubuntu auth keys"}/>
 <ImagieCenter src={pic20} alt={"ubuntu auth keys"}/>
 <ImagieCenter src={pic22} alt={"ubuntu auth keys"}/>
-<p className='text-pink-500'>oops! again forgot to use the private key, lets add remote origin again with the key</p> 
+<p className='text-pink-500'>“Oops! I forgot to use the private key again. Let's add the remote origin once more using the SSH key.”</p> 
 <p className='text-lime-400'>git remote set-url origin git@github-username:/repository.git</p>
 
 
