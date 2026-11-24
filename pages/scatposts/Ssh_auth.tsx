@@ -24,12 +24,12 @@ import pic21 from "../zimages/pic21.png"
 import pic22 from "../zimages/pic22.png"
 import pic23 from "../zimages/pic23.png"
 
-function Meme1() {
+function Ssh_auth() {
   return (
     <>
       <Title
         title='Turns Out, SSH Authentication Isnt as Complicated as I Thought.'
-        date='November 22, 2026'
+        date='November 24, 2026'
       />
 
       <Paragraph>
@@ -295,4 +295,4 @@ git remote set-url origin git@github-username:username/reponame.git
   );
 }
 
-export default Meme1;
+export default Ssh_auth;

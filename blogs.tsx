@@ -9,7 +9,7 @@ export const blogs: Blogs[] = [
   {
     title: "Turns Out, SSH Authentication Isn't as Complicated as I Thought",
     date: "November 24, 2026",
-    path: "meme1",
+    path: "ssh_auth",
     Author: "scat",
   },
 ];

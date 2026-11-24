@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import Scat from "./Scat";
-import Meme1 from "../pages/scatposts/Meme1";
+import Ssh_auth from "../pages/scatposts/Ssh_auth";
 
 
 
@@ -9,7 +9,7 @@ function ScatRoutes() {
   return (
     <Routes>
       <Route path="/scat" element={<Scat />} />
-      <Route path="/scat/meme1" element={<Meme1 />} />
+      <Route path="/scat/ssh_auth" element={<Ssh_auth />} />
 
     </Routes>
   );
