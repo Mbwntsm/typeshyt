@@ -1,0 +1,27 @@
+Host u
+        HostName 192.168.31.204
+        User mbwntsm
+        Port 22
+        Identityfile C:/Users/asus/.ssh/ubuntu_id_ed25519
+
+Host arch
+        HostName 192.168.31.100
+        User brut
+        Port 22
+        Identityfile C:/Users/asus/.ssh/arch_id_ed25519
+
+Host github-fuqyumeen
+        HostName github.com
+        User git
+        Identityfile C:/Users/asus/.ssh/fuqyumeen_id_ed25519
+        IdentitiesOnly yes
+
+Host github-mbwntsm
+        HostName github.com
+        User git
+        Identityfile C:/Users/asus/.ssh/mbwntsm_id_ed25519
+        IdentitiesOnly yes
+
+
+
+bg-[#dafb2b] 

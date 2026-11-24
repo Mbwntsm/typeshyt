@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Roboto Mono", monospace;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+
+
+/* Hide scrollbar everywhere but preserve scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
