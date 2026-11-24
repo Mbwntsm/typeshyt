@@ -1,4 +1,3 @@
-import Heading from '../../src/components/Heading';
 import Paragraph from '../../src/components/Paragarph'
 import Title from '../../src/components/Title';
 import { ImagieCenter} from '../../src/components/Imagie';
